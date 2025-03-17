@@ -1,0 +1,15 @@
+Magic	Orlando
+Clippers	LosAngeles
+Spurs	SanAntonio
+Hornets	Charlotte
+Bucks	Milwaukee
+Cavaliers	Cleveland
+Timberwolves	Minneapolis
+Thunder	OklahomaCity
+Rockets	Houston
+Kings	Sacramento
+Nuggets	Denver
+76ers	Philadelphia
+Bullets	Washington
+Hawks	Atlanta
+Warriors	SanFrancisco
