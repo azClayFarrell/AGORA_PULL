@@ -1,0 +1,25 @@
+----------------
+----------------
+Invalid number of command line arguments. Supplied: 1
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.
+----------------
+Merge failed for files: one.txt , two.txt , output.txt.

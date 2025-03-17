@@ -1,0 +1,55 @@
+Name:Hannah Y and Clay F
+
+----------------------------------------------------
+Correct Style (1)
+    (shebang, name, comments, etc)
+----------------------------------------------------
+
+
+----------------------------------------------------
+exit (2)
+    Success/Failure codes
+----------------------------------------------------
+
+
+----------------------------------------------------
+Three command line arguments (4)
+    If 0, prompt user for input
+    if 1 or 4, then print usage message
+    Proper usage message
+    Prompt for filenames, when appropriate
+----------------------------------------------------
+
+
+----------------------------------------------------
+Use "" in [ ], where needed (1)
+----------------------------------------------------
+
+
+----------------------------------------------------
+Check for file persmission (rwx) (4)
+    read, write, execute
+    Prints out multiple errors for both files
+----------------------------------------------------
+
+
+----------------------------------------------------
+merge files (4)
+    Will not merge if output file already exists
+    Append messages to log file
+    Format of merged file
+----------------------------------------------------
+one.txt merged with two.txt -1
+**** FAILED: output file already exists. Reported success on a failure condition.
+
+Cannot perform merge, please check files.
+exit code: 53
+**** FAILED: Merged file created on files with illegal permissions
+**** FAILED: Exit status: 53
+created out.txt on failed merge <---- -1
+
+
+    
+
+----------------------------------------------------
+Total (16):  14 ==> 88

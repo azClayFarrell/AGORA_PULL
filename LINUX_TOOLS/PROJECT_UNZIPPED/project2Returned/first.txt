@@ -1,0 +1,39 @@
+============================================================================
+TEST 1: create.sh
+Usage: $ create.sh -i|-o filenamePASSED: (5)  Usage message
+----------------------------------------------------------------------------
+TEST 2: create.sh novel -i
+./create.sh: illegal option -- n
+Usage: $ create.sh -i|-o filenamePASSED: (1) passed "novel" as a flag
+----------------------------------------------------------------------------
+TEST 3: create.sh -o novel (invalid state)
+PASSED: (3) invalid state
+----------------------------------------------------------------------------
+TEST 4: create.sh -o novel2 (invalid items number)
+PASSED: (0) valid file
+----------------------------------------------------------------------------
+TEST 5: create.sh -o novel3 (valid)
+PASSED: (0) valid file
+----------------------------------------------------------------------------
+TEST 6: create.sh -i novel3 (valid)
+PASSED: (0) valid file
+----------------------------------------------------------------------------
+TEST 7: create.sh -o novel3 (duplicate file test)
+PASSED: (4) error reported on duplicate file creation
+----------------------------------------------------------------------------
+TEST 8: create.sh -i clothes invalid category (items)
+FAILED: (0) file should not be created
+----------------------------------------------------------------------------
+TEST 9: create.sh -i cups, valid category
+PASSED: (0) valid file
+----------------------------------------------------------------------------
+TEST 10: create.sh -i clothes2 (prompt for categories multiple times)
+From the instructions: 
+	A user must enter at least 1 category name, if not prompt them again until they do.
+PASSED: (0) valid file
+----------------------------------------------------------------------------
+TEST 11: create.sh -i many (more than 20 fields)
+FAILED: (1) file created, but differences
+============================================================================
+Success: 9
+Failure: 2

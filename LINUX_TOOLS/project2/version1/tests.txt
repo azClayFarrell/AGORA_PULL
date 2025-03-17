@@ -1,0 +1,46 @@
+# Tests
+This file contains a list of all the test cases having been run for the scripts.
+
+## create.sh
+
+### command line tests
+1. `./create.sh -i` - no filename provided [pass]
+2. `./create.sh filename` - invalid number of args/no options [pass]
+3. `./create.sh -x filename` - invalid option passed [pass]
+4. `./create.sh -i dupFilename` - create duplicate filename [pass]
+5. `./create.sh -o filename` - create out-of-state order [pass]
+6. `./create.sh -o` - no filename with oos order [pass]
+
+### user input tests
+1. no input for the name - [pass]
+2. no input for the address - [pass]
+3. no input for the city - [pass]
+4. no input for the state (.oso order) - [pass]
+5. digits entered for state - [pass]
+6. 3 chars entered for the state - [pass]
+7. 1 char entered for the state - [pass]
+8. 2 chars, that aren't a real state abbreviation, entered - [pass]
+9. 1 lowercase 1 uppercase char entered for state - [pass]
+10. no input entered for items - [pass]
+11. no input entered for qty - [pass]
+12. non-numeric entry for qty - [pass]
+13. negative entry for qty - [pass]
+14. user prompted, indefinitely, if qty not integer 0 or greater - [pass]
+
+
+## valid.sh
+1. file does not exist - [pass]
+2. the argument is a directory - [pass]
+3. the file extension is not valid for an invoice - [pass]
+4. there was a non-numeric in the items header line - [pass]
+5. there was a negative number in the items header line - [?not possible at the moment?]
+6. the state in the address of the input contained a non numeric character or trailing white space - [pass]
+7. the state for an in state extension file was not "NC" - [pass]
+8. the length of the state abbreviation was not of length 2 - [pass]
+9. the headers were formatted incorrectly - [pass]
+10. there was not at least 1 category - [pass]
+11. there was not at least 1 item request - [pass]
+12. there are an unequal amount of categories and orders, should be equal - [pass]
+13. we do not have read permissions for the file - [pass]
+14. the .oso file had NC as the state - [pass]
+15. the awk script found no name on the invoice - [pass]
