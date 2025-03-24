@@ -5,6 +5,9 @@ is of a quality that I would submit for review for a job.
 Programming language examples and their location:
 
 SQL  : Databases
+
 C    : CS352
+
 Bash : Linux_Tools & R_Server_Scripts
+
 Java : Networking
