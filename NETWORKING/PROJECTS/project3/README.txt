@@ -26,23 +26,3 @@ Known bug:
     it into the lobby are not in the turn order and are considered spectators.
     So, essentially they are harmless to the conduct of the game, but it does
     not align with handout specs. I just cannot find out how they get in.
-
-
-
-Partner review:
-
-I think we put in an equal amount of effort and we did a really good job, but
-I found it frustrating working with Allison. There was a bit of a knowledge
-gap which made it hard to read her code, which made it hard to debug when we
-ran into issues to the point I stopped even really looking at her stuff. If I
-encountered a bug I would have to just tell her about it so she could fix it
-because there was too much to read for me to find it. She would also
-unintentionally make my code harder to read because she would put it into a
-format she was more comfortable with. It's left me feeling a little exhausted.
-With that aside she worked very hard on this and I think deserves full marks.
-The only thing that I found to be a genuine bother is that, after the first
-Milestone, I had told her not to work too far ahead of me. I didn't want her to
-get too far into the weeds again, but she coded like 300 lines without me
-without telling me, and it was not un-ugly code. However, I think her
-dedication to the completion of the project outweighs the few shortcomings
-she may have in Java.
